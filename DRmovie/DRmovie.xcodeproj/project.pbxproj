@@ -74,6 +74,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B1F88F2005E02C0033C2F3 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				64764D742005D377008F72CC /* AppDelegate.swift */,
+				64764D762005D377008F72CC /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		04B1F8902005E0410033C2F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64764D7D2005D377008F72CC /* LaunchScreen.storyboard */,
+				64764D782005D377008F72CC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B1F8912005E04C0033C2F3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				64764D802005D377008F72CC /* Info.plist */,
+				64764D7B2005D377008F72CC /* Assets.xcassets */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		64764D682005D377008F72CC = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +125,9 @@
 		64764D732005D377008F72CC /* DRmovie */ = {
 			isa = PBXGroup;
 			children = (
-				64764D742005D377008F72CC /* AppDelegate.swift */,
-				64764D762005D377008F72CC /* ViewController.swift */,
-				64764D782005D377008F72CC /* Main.storyboard */,
-				64764D7B2005D377008F72CC /* Assets.xcassets */,
-				64764D7D2005D377008F72CC /* LaunchScreen.storyboard */,
-				64764D802005D377008F72CC /* Info.plist */,
+				04B1F8912005E04C0033C2F3 /* Module */,
+				04B1F8902005E0410033C2F3 /* View */,
+				04B1F88F2005E02C0033C2F3 /* Control */,
 			);
 			path = DRmovie;
 			sourceTree = "<group>";
